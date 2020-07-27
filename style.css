@@ -101,3 +101,120 @@ header .logo a{
         background-position: 0 -200px;
     }
 }
+
+.menu_info1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#btn a{
+    background-color: red;
+    width: 100px;
+    height: 500px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    margin: auto;
+}
+#pickup{
+    color: chocolate;
+    text-transform: uppercase;
+}
+span{
+    color: red;
+}
+#menu_logo{
+    position: relative;
+    bottom: 50px;
+    background-color: gray;
+    margin: 10px 10px;
+    padding: 10px;
+    height: 300px;
+}
+.menu li a{
+    text-decoration: none;
+    color: gray;
+}
+.breakfast, .coffee, .wakeup, .burritos, .pizza,.baked, .bread{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.breakfast img, .coffee img, .wakeup img, .burritos img, .pizza img, .baked img, .bread img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+body h2 {
+    margin-left: 20px;
+}
+figure span {
+   position: relative;
+   left: 210px;
+   bottom: 40px;
+   background-color: red;
+   padding: 7px;
+   border-radius: 5px;
+}
+figure span a{
+    text-decoration: none;
+    color: white;
+}
+#top_link img{
+    width: 40px;
+   float: right;
+}
+#top_link{
+    position: fixed;
+}
+#loc-title{
+    text-align: center;
+}
+#location-top{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 60px;
+}
+#bottom-section{
+    display: flex;
+    flex-direction: row;
+}
+#loc-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+#loc-right{
+    float: right;
+    margin-right: 20px;
+}
+#loc-right img {
+    width: 70%;
+}
+#loc-left img{
+    width: 50px;
+}
+#social_network{
+    margin-top: 75px;
+    margin-left: 25px;
+}
+
+.hide h1{
+    color: chocolate;
+}
+
+#pizza-more, #pastry-case, #baked-oatmeal, #beverages, #burrit, #quiche, #bread, #sat{
+    font-size: 20px;
+    color: gray;
+}
+.hide{
+    display: none;
+}
+.menu li a:hover{
+    background-color: black;
+}
